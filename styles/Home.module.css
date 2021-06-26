@@ -71,7 +71,8 @@
   border-radius: 3rem;
   padding: .5rem .6rem;
   margin-right: 5px;
-
+  min-height: 2.7rem;
+  min-width: 2.7rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -83,6 +84,10 @@
 
 .twitterInIcon {
   background-color: #22a1f2;
+}
+
+.stackOverflowIcon {
+  background-color: #fff;
 }
 
 .icon {

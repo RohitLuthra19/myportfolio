@@ -25,9 +25,10 @@ a {
 /* Style the top navigation bar */
 .navbar {
   width: 100%;
-  position: fixed;
+  position: fixed !important;
   overflow: hidden;
   background-color: #333;
+  z-index: 999;
 }
 
 .navbar a {
