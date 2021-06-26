@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import AppInfo from "../lib/app.json";
+import AppInfo from "../public/app.json";
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
