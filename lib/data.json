@@ -1,0 +1,42 @@
+{
+    "FRONT-END (LANGUAGES/TOOLS)" : [
+        "HTML",
+        "CSS",
+        "SASS",
+        "JavaScript",
+        "React",
+        "Redux",
+        "Redux-Saga",
+        "GraphQL",
+        "NextJs",
+        "Material-UI",
+        "Bootstrap",
+        "Micro-FrontEnds",
+        "Accessibility(508/a11y)"
+    ],
+    "BACK-END (LANGUAGES/TOOLS)" : [
+        "NodeJS",
+        "GraphQL",
+        "MongoDB",
+        "MySQL"
+    ],
+    "MOBILE DEVELOPMENT (LANGUAGES/TOOLS)" :[
+        "React-Native"
+    ],
+    "TEST CASE AUTOMATION (LANGUAGES/TOOLS)" : [
+        "React Testing Library",
+        "Jest",
+        "TestCafe-E2E",
+        "Cucumber Gherkin(Given, When & Then)"
+    ],
+    "CLOUD SERVICES (LANGUAGES/TOOLS)" : [
+        "AWS-CloudFront, S3, EC2",
+        "Heroku",
+        "Digital Ocean",
+        "Firebase"
+    ],
+    "VERSION CONTROLLING (LANGUAGES/TOOLS)" : [
+        "GIT",
+        "TFS/VSTS"
+    ]
+}
