@@ -1,0 +1,95 @@
+[
+  {
+    "title": "Senior Software Engineer ",
+    "tenure": "Apr 2021 - Present",
+    "company": "Epam Systems India Pvt. Ltd.",
+    "location": "Gurugram, Haryana (India)",
+    "description": {
+      "Working on Internal Product- Welcome India(Hiring Portal). (May 2019 to Present)": [
+        "Technologies: React.js, Next.js, Javascript, HTML, CSS/SCSS"
+      ]
+    }
+  },
+  {
+    "title": "Senior Associate Experience Technology L1",
+    "tenure": "Oct 2019 - Apr 2021",
+    "company": "Publicis Sapient",
+    "location": "Noida, U.P (India)",
+    "description": {
+      "Worked on a Banking and Financial Product (Nov 2019 to Apr 2021)": [
+        "Worked on OLB (Online Line Banking) redesign/revamp.",
+        "Delivered Micro Front-end Apps with the full support for Accessibility (508/a11y).",
+        "Responsible for integration of RESTFUL Web services and GraphQL APIs.",
+        "Hands-on experience in Unit testing frameworks Jest, Enzyme, React Testing Library and E2E testing framework",
+        "TestCafe, Selenium to maintain &amp; keep the code bug free.",
+        "Developing and maintaining reusable UI components library in isolation using Storybook.",
+        "Working closely with the onshore team and demonstrating all work achieved in each sprint end.",
+        "Mentoring new Team members.",
+        "Technologies: React.js, GraphQL, Javascript, HTML, CSS/SCSS, Jest and React testing library"
+      ]
+    }
+  },
+  {
+    "title": "Senior Software Engineer ",
+    "tenure": "Oct 2018 - Oct 2019",
+    "company": "Quovantis Technologies Pvt. Ltd.",
+    "location": "Noida, U.P (India)",
+    "description": {
+      "Worked on a project/product named <b>Paylode</b> (July 2019 to Oct 2019)": [
+        "Responsible for the development of the great UI and integration of RESTFUL web services.",
+        "Responsible for taking the complete ownership of UI workflow for exporting styling from InVision Studio to directly in the project.",
+        "Hosted Web App on Aws S3 and to securely delivers data and applications globally with low latency, high transfer speeds cache the resources we are using Aws CloudFront(CDN).",
+        "Technologies: React.js, Redux-saga, Immutable.js, Javascript, HTML, CSS/SCSS, Bootstrap 4, Jest and Enzyme"
+      ],
+      "Worked on a project/product named <b>mPulse Mobile Control Panel</b> (Oct 2018 to Jul 2019)": [
+        "Responsible for taking the complete ownership of UI workflow for exporting styling from InVision Studio to directly in the project.",
+        "Responsible for integration of RESTFUL web services, HTTP services and Web Services with web application.",
+        "Tackling design and architectural problems along the way to get maximum performance and code reusability.",
+        "Extensively worked on debugging and unit testing frameworks such as Chrome Dev tools, Jest and Enzyme.",
+        "Bundling and deployment of web application using NPM, babel, Webpack.",
+        "Worked on creating reusable components library and published on following npm repository: https://www.npmjs.com/package/mpulsemobile-react-component-library.",
+        "Technologies: React.js, Redux-saga, Immutable.js, Javascript, HTML, CSS/SCSS, Jest and Enzyme"
+      ]
+    }
+  },
+  {
+    "title": "Software Engineer",
+    "tenure": "Jul 2015 - Oct 2018",
+    "company": "QuarkXPress Publishing R&D Pvt. Ltd.",
+    "location": "Mohali, Punjab (India)",
+    "description": {
+      "Worked on a product named <b>QuarkXPress Server</b> which is a server edition of professional layout design tool QuarkXPress.": [
+        "Developed and maintained the frontend of the software.",
+        "Worked on the end to end automation testing using Selenium and TestNg framework.",
+        "Enhanced the software to make it compatible for different platforms or browsers.",
+        "Developed code fixes and enhancements for inclusion in future code releases and patches.",
+        "Worked on the deployment of the software on Cloud platform: Microsoft Azure Cloud Computing Platform and Services.",
+        "Extensive knowledge of Performance Testing and load testing using Apache JMETER tools and performance profiling of enterprise application server using XCode tools.",
+        "Worked on ELK Stack (Elastic Search, Log stash, File Beat, Kibana) for analyzing & monitoring the logs of server.",
+        "Technologies: Sencha Ext-JS framework (later used Angular2) and backend in Java/Spring MVC framework."
+      ],
+      "Worked on telemetry & monitoring tool named as <b>QXPSMonitor</b> to manage the telemetry of multiple servers.": [
+        "Developed and maintained the frontend of the tool",
+        "Technologies: Angular2 framework and backend in Java/Spring MVC framework.",
+        "Applications of the tool are Server Management:",
+        "Addition",
+        "Deletion of new or existing server",
+        "Server Usage and Diagnostics",
+        "Telemetry collection in DB",
+        "Graphs and Charts representation"
+      ]
+    }
+  },
+  {
+    "title": "Software Engineer Trainee",
+    "tenure": "Jan 2015 - Jun 2015",
+    "company": "QuarkXPress Publishing R&D Pvt. Ltd.",
+    "location": "Mohali, Punjab (India)",
+    "description": {
+      "Worked on the Android app <b>App Studio Issue Previewer</b> available on play store.": [
+        "Completed Six months industrial training in Android.",
+        "Technologies: Android Studio, Android, Java, HTML, CSS, JavaScript"
+      ]
+    }
+  }
+]
