@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
+import ReactMarkdown from "react-markdown";
+
 import styles from "../styles/Home.module.css";
 import data from "../public/data.json";
 import experience from "../public/experience.json";
@@ -42,23 +44,21 @@ export default function Home() {
       const { title, tenure, company, description, location } = com;
       return (
         <React.Fragment key={`com-${index}`}>
-          <h2>
+          <h2 className="title">
             {title} | {tenure}
           </h2>
-          <h3>
+          <h3 className="company">
             {company}, {location}
           </h3>
 
-          <ol>
-            {Object.keys(description).map((expPoints, index) => {
-              return (
-                <li key={`des-${index}`}>
-                  {expPoints}
-                  <ul>{renderPoints(description, expPoints)}</ul>
-                </li>
-              );
-            })}
-          </ol>
+          {Object.keys(description).map((expPoints, index) => {
+            return (
+              <React.Fragment key={`des-${index}`}>
+                <ReactMarkdown>{expPoints}</ReactMarkdown>
+                <ul>{renderPoints(description, expPoints)}</ul>
+              </React.Fragment>
+            );
+          })}
           <br />
         </React.Fragment>
       );
@@ -75,11 +75,19 @@ export default function Home() {
       </Head>
 
       <nav className="navbar" id="navbar">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
-        <a className="icon" onClick={handleMenu}>
+        <a className="navItem" href="#home">
+          Home
+        </a>
+        <a className="navItem" href="#about">
+          About
+        </a>
+        <a className="navItem" href="#skills">
+          Skills
+        </a>
+        <a className="navItem" href="#experience">
+          Experience
+        </a>
+        <a className="navItem icon" onClick={handleMenu}>
           <i className="fa fa-bars"></i>
         </a>
       </nav>
