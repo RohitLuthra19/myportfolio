@@ -4,7 +4,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Lato", sans-serif;
+  font-family: gdsherpa, Helvetica, Arial, sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -21,6 +21,27 @@ a {
   box-sizing: border-box;
 }
 
+p,
+li {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+@font-face {
+  font-family: "Gdsherpa";
+  src: url("/fonts/gdsherpa-vf.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gd-Sage-Bold";
+  src: url("/fonts/gd-sage-bold.woff2");
+  font-style: bold;
+  font-weight: 600;
+  font-display: swap;
+}
 
 /* Style the top navigation bar */
 .navbar {
@@ -47,7 +68,7 @@ a {
 }
 
 .navbar a.active {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   color: white;
 }
 
@@ -56,7 +77,9 @@ a {
 }
 
 @media screen and (max-width: 600px) {
-  .navbar a:not(:first-child) {display: none;}
+  .navbar a:not(:first-child) {
+    display: none;
+  }
   .navbar a.icon {
     float: right;
     display: block;
@@ -64,7 +87,9 @@ a {
 }
 
 @media screen and (max-width: 600px) {
-  .navbar.responsive {position: relative;}
+  .navbar.responsive {
+    position: relative;
+  }
   .navbar.responsive .icon {
     position: absolute;
     right: 0;
