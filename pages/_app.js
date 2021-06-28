@@ -9,8 +9,8 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>{AppInfo?.appName?.toUpperCase()}</title>
         <meta charSet="UTF-8" />
-        <meta name="description" content="Rohit Kumar" />
-        <meta name="keywords" content="Rohit Kumar" />
+        <meta name="description" content={AppInfo.appName} />
+        <meta name="keywords" content={AppInfo.appName} />
         <meta
           name="author"
           content={`${AppInfo.appName} || ${AppInfo.contactEmailId}`}
