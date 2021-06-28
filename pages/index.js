@@ -1,8 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
+
 import styles from "../styles/Home.module.css";
 import data from "../public/data.json";
+import AppInfo from "../public/app.json";
 
 export default function Home() {
   const renderSkills = () => {
@@ -34,8 +36,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Rohit Luthra</title>
-        <meta name="description" content="Rohit Luthra" />
+        <title>{AppInfo.appName}</title>
+        <meta name="description" content={AppInfo.appName} />
         <link rel="icon" href="/favicon.ico" />
         <script type="text/javascript" src="/custom.js" async />
       </Head>
@@ -60,7 +62,7 @@ export default function Home() {
             height={144}
           />
         </div>
-        <h1 className={styles.heading}>Rohit Luthra</h1>
+        <h1 className={styles.heading}>{AppInfo.appName}</h1>
         <h3>&#60; Front End Developer &#47; &#62;</h3>
         <div>
           <div className={styles.icon_container}>
@@ -399,7 +401,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a href="mailto:rohit.luthra19@gmail.com">
-          &copy; 2021 Rohit Luthra. All rights reserved.
+          &copy; 2021 {AppInfo.appName}. All rights reserved.
         </a>
       </footer>
     </div>
