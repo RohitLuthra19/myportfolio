@@ -20,6 +20,23 @@
 /* Column container */
 .heading {
   margin-top: 40px;
+  margin-bottom: 60px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+}
+
+.heading::after {
+  background: url(/section-divider.webp) no-repeat;
+  bottom: -30px;
+  content: "";
+  height: 15px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 113px;
 }
 
 /* Main column */
@@ -62,6 +79,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  margin-top: 20px;
 }
 
 .connect_icons {
@@ -110,85 +128,3 @@
   color: #fff;
   background-color: #000; /* #eceff1; */
 }
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-}
-
-/* 
-.topBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: #F8F8F8;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 15px;
-}
-
-.topBtn:hover {
-  background-color: #E8E8E8;
-}
-
-.topBtn:hover .arrowUpIcon:hover {
-  fill: #000000;
-}
-
-.arrowUpIcon {
-  fill: #000;
-  width: 24px;
-  height: 12px;
-}
-
-
-.srOnly {
-  position: absolute;
-  clip-path: inset(50%);
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  word-wrap: normal !important;
-  clip: rect(1px, 1px, 1px, 1px);
-}
-
-.srOnly:focus {
-  display: block;
-  top: 5px;
-  left: 5px;
-  z-index: 100000;
-  clip-path: none;
-  background-color: #eee;
-  padding: 15px 23px 14px;
-  width: auto;
-  height: auto;
-  text-decoration: none;
-  line-height: normal;
-  color: #444;
-  font-size: 1em;
-  clip: auto !important;
-} */
