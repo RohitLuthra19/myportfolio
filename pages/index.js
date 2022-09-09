@@ -60,20 +60,28 @@ export default function Home() {
 
       return (
         <React.Fragment key={`com-${index}`}>
-          <h2 className="title">
-            {title} | {tenure}
-          </h2>
+          <h2 className="title">{`${title} | ${tenure}`}</h2>
+
           <h3 className="company">
             {company}, {location}
           </h3>
 
-          {Object.keys(description).map((expPoints, index) => {
+          {description.map((projects, index) => {
+            const { title, tenure, technologies, points } = projects;
             return (
-              <Experience
-                key={`des-${index}`}
-                expPoints={expPoints}
-                description={description}
-              />
+              <React.Fragment key={`com-${index}`}>
+                <ReactMarkdown>{`**Title:** ${title} | ${tenure}`}</ReactMarkdown>
+
+                <ReactMarkdown>
+                  {`**Technologies:** ${technologies.join(", ")}`}
+                </ReactMarkdown>
+                <ul>
+                  {points.map((point, index) => {
+                    return <li key={`points-${index}`}>{point}</li>;
+                  })}
+                </ul>
+                <br />
+              </React.Fragment>
             );
           })}
           <br />
@@ -188,6 +196,24 @@ export default function Home() {
         </div>
       </header>
 
+      <a
+        href="https://web.whatsapp.com/send?phone=+919023594168&amp;text=Hi"
+        className={styles.floating_actions}
+        target="_blank"
+        rel="noreferrer"
+      >
+        <i className="fa fa-whatsapp custom-size"></i>
+      </a>
+
+      <a
+        href="tel:9023594168"
+        className={`${styles.floating_actions} ${styles.action_blue_color}`}
+        target="_blank"
+        rel="noreferrer"
+      >
+        <i className="fa fa-phone"></i>
+      </a>
+
       <section className={`${styles.row} content`} id="about">
         <div className={styles.main}>
           <h1 className={styles.heading}>About</h1>
@@ -228,7 +254,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a href={`mailto:${AppInfo?.contactEmailId}`}>
-          &copy; 2021 {AppInfo?.appName}. All rights reserved.
+          &copy; 2022 {AppInfo?.appName}. All rights reserved.
         </a>
       </footer>
     </div>

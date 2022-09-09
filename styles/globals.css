@@ -413,3 +413,7 @@ h3 {
 .timeline-heading span a.h4 {
   text-decoration: none;
 }
+
+.custom-size {
+  font-size: 1.3em;
+}
