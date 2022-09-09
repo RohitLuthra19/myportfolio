@@ -209,7 +209,7 @@ export default function Home() {
         <div className={styles.main}>
           <h1 className={styles.heading}>About</h1>
           <p>
-            Senior Software Engineer with more than 6 years of experience
+            Senior Software Engineer with more than 7 years of experience
             (ReactJs | React-Context | Redux-Saga | HTML5 | JavaScript |
             CSS/SCSS | Apollo GraphQL Client &amp; Server | Nextjs | Node.js |
             React-Native)
