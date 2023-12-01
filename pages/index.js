@@ -197,7 +197,7 @@ export default function Home() {
       </header>
 
       <a
-        href="https://web.whatsapp.com/send?phone=+919023594168&amp;text=Hi"
+        href="https://web.whatsapp.com/send?phone=+919023288257&amp;text=Hi"
         className={styles.floating_actions}
         target="_blank"
         rel="noreferrer"
@@ -206,7 +206,7 @@ export default function Home() {
       </a>
 
       <a
-        href="tel:9023594168"
+        href="tel:9023288257"
         className={`${styles.floating_actions} ${styles.action_blue_color}`}
         target="_blank"
         rel="noreferrer"
